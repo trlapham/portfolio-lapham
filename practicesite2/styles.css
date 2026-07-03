@@ -91,13 +91,14 @@ li {
   margin: 0 auto;
 }
 
-/* Navigation Bar */
+/* Navigation */
 nav {
     background-color: #1e293b;
-    padding: 18px;
+    padding: 15px;
+    margin: 20px 0;
+    border: 2px solid #38bdf8;
+    border-radius: 8px;
     text-align: center;
-    border-radius: 10px;
-    margin-bottom: 40px;
 }
 
 /* Navigation Links */
@@ -122,4 +123,53 @@ nav a:hover {
 nav a:active {
     background-color: #0ea5e9;
     color: white;
+}
+
+/* Header */
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 25px;
+    margin: 20px;
+    border: 3px solid #38bdf8;
+    border-radius: 10px;
+}
+
+/* Section */
+section {
+    background-color: #1e293b;
+    padding: 25px;
+    margin: 30px auto;
+    border: 2px solid #334155;
+    border-radius: 10px;
+    max-width: 900px;
+}
+
+/* Article */
+article {
+    background-color: #334155;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #38bdf8;
+    border-radius: 8px;
+}
+
+/* Aside */
+aside {
+    background-color: #475569;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px dashed #7dd3fc;
+    border-radius: 8px;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #1e293b;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 4px solid #38bdf8;
 }
